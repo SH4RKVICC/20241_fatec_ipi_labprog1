@@ -26,3 +26,10 @@ class Funcionario:
         print(f"Aumento em {aumento}% aplicado com sucesso.")
         novo_sal = self.__salario * (aumento)
         self.__salario += novo_sal
+
+# Teste da classe
+funcionario = Funcionario(" Quentin Tarantino", 3000, True)
+print("Nome:", funcionario.nome())
+print("Salário atual:", funcionario.salario())
+funcionario.aplicar_aumento()
+print("Salário atual após aumento: R$", funcionario.salario())
