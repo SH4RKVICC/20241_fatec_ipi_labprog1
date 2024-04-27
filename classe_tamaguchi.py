@@ -5,3 +5,9 @@ class Tamaguchi:
         self.fome = fome
         self.saude = saude
         self.idade = idade
+
+def humor(self):
+    if self.fome and self.saude:
+    print("Seu tamaguchi está de bom humor!"
+    else:
+     print("Seu tamaguchi está de mal humor!")
