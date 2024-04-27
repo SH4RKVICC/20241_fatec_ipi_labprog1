@@ -6,8 +6,13 @@ class Tamaguchi:
         self.saude = saude
         self.idade = idade
 
+#o humor depende se a fome e a saude estão em estado positivo (true)
 def humor(self):
     if self.fome and self.saude:
-    print("Seu tamaguchi está de bom humor!"
+        print("Seu tamaguchi está de bom humor!")
     else:
-     print("Seu tamaguchi está de mal humor!")
+        print("Seu tamaguchi está de mal humor!")
+
+#Teste Tamaguchi
+t = tamaguchi("Adam Driver", False, True, 9)
+t.humor()
