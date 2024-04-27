@@ -15,3 +15,9 @@ class Professor:
 
     def __str__(self):
         return f"Professor: {self.nome}, Titulação: {self.titulacao}"
+    
+#testando classes
+a = Aluno("Gabriel Leone")
+print(a)
+p = Professor("Fernanda Montenegro", "Aposentado")
+print(p)
